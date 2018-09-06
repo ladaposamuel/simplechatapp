@@ -1,5 +1,4 @@
 $(function(){
-   	//make connection
 	let socket = io.connect('http://localhost:3000')
 	let message = $("#message")
 	let username = $("#username")
