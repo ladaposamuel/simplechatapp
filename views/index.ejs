@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A staybusy Project.">
+    <title>Simple chat app</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <!--<![endif]-->
+    
+    
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="blog-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="blog.css">
+        <!--<![endif]-->
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+
+</head>
+<body>
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+        <div class="header">
+            
+            <h1 class="brand-title"><img  class="logo" src="https://www.shareicon.net/download/128x128//2016/08/30/821028_nature_512x512.png" alt=""> Weed Chat</h1>
+            <h2 class="brand-tagline">A Simple Nodejs chat app with no DB</h2>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                  
+                    <li class="nav-item">
+                        <a class="pure-button" href="https://nodejs.org/">What is NodeJS</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            <!-- A wrapper for all the blog posts -->
+           
+            <div class="posts">
+                <h1 class="content-subhead">Descriptions</h1>
+
+<pre>
+A Simple Nodejs chat app with no DB
+</pre>
+                <section class="post">
+                    <header class="post-header">
+                        <h2 class="post-title">Chat Now</h2>
+                    </header>
+                    <div class="post-description">
+             
+                 <section>
+      <div id="change_username">
+  <input id="username" type="text" />
+  <button id="send_username" type="button">Change Nickname</button>
+      </div>
+    </section>
+
+    <section id="chat">
+      <section id="app"></section>
+    </section>
+
+    
+
+    <section id="input_zone"> 
+      <input id="message" class="vertical-align" type="text" />
+      <button id="send_message" class="vertical-align" class="pure-button pure-button-primary" type="button">Send</button>
+    </section>
+                    </div>
+                </section>
+          <hr>
+
+
+
+            </div>
+            <div class="footer">
+                <div class="pure-menu pure-menu-horizontal">
+                    <ul>
+                        <li class="pure-menu-item"><a href="tel:+2348068170006" class="pure-menu-link">Ladapo Samuel</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="chat.js"></script>
+</body>
+</html>

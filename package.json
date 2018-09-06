@@ -1,0 +1,25 @@
+{
+  "name": "chatty",
+  "version": "1.0.0",
+  "description": "A simple No DB chat app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ladaposamuel/simplechatapp.git"
+  },
+  "author": "Ladapo Samuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ladaposamuel/simplechatapp/issues"
+  },
+  "homepage": "https://github.com/ladaposamuel/simplechatapp#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4",
+    "socket.io": "^2.1.1"
+  }
+}
